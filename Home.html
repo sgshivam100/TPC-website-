@@ -1,0 +1,666 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/logo.png" />
+    <title>TPC</title>
+    <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles/styles.css">
+
+    
+</head>
+
+
+<body>
+    <!-- Navbar start -->
+   <section >
+    <nav class="navbar  main-nav is-fixed-top  has-text-weight-bold" role="navigation" aria-label="main navigation">
+
+
+        <div id="navbarBasicExample" class="navbar-menu mx-6">
+            <div class="navbar-brand">
+                <a class="navbar-item" href="Home.html">
+                    <img src="images/logo.png" alt="#" class="mx-3" width="50" height="28">
+                    TPC IIT Patna
+                </a>
+
+                <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false"
+                    data-target="navbarBasicExample">
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                </a>
+            </div>
+            <div class="navbar-end">
+                <div class="navbar-item has-dropdown is-hoverable">
+                    <a class="navbar-link">
+                        About US
+                    </a>
+
+                    <div class="navbar-dropdown">
+                        <a onclick="smoothScroll(document.getElementById('TPC'))" class="navbar-item">
+                            TPC
+                        </a>
+                        <a onclick="smoothScroll(document.getElementById('ContactUs'))" class="navbar-item">
+                            Contact US
+                        </a>
+                        <a href="youtube.com" target="_blank" class="navbar-item">
+                            Youtube Channel
+                        </a>
+                        <a href="linkedinn.in" target="_blank" class="navbar-item">
+                            Linkedin
+                        </a>
+
+                        <a class="navbar-item" onclick="smoothScroll(document.getElementById('activities'))">
+                            Activities
+                        </a>
+                    </div>
+                </div>
+                <div class="navbar-item has-dropdown is-hoverable">
+                    <a class="navbar-link">
+                        IIT Patna
+                    </a>
+
+                    <div class="navbar-dropdown">
+                        <a class="navbar-item">
+                            Student and Academics
+                        </a>
+                        <a class="navbar-item">
+                            Graduating Students
+                        </a>
+                        <a class="navbar-item">
+                            Researches
+                        </a>
+                        <a class="navbar-item">
+                            Report an issue
+                        </a>
+                    </div>
+                </div>
+
+                <div class="navbar-item has-dropdown is-hoverable">
+                    <a class="navbar-link">
+                        For Students
+                    </a>
+
+                    <div class="navbar-dropdown">
+                        <a class="navbar-item">
+                            Student Login
+                        </a>
+                        <a href="pages/newStud.html" class="navbar-item">
+                            New Registration
+                        </a>
+                        <a class="navbar-item">
+                            Alumni Search
+                        </a>
+                        <a class="navbar-item">
+                            F.A.Q
+                        </a>
+                    </div>
+                </div>
+
+                <div class="navbar-item has-dropdown is-hoverable">
+                    <a class="navbar-link">
+                        For Recruiters
+                    </a>
+
+                    <div class="navbar-dropdown">
+                        <a class="navbar-item">
+                            Recruiter Login
+                        </a>
+                        <a href="./pages/newRecruiter.html" class="navbar-item">
+                            New Recruiter Here
+                        </a>
+                        <a class="navbar-item">
+                            Recruiters Procedure
+                        </a>
+                        <a class="navbar-item">
+                            Facilities
+                        </a>
+                    </div>
+                </div>
+
+                <div class="navbar-item has-dropdown is-hoverable">
+                    <a class="navbar-link">
+                        For Alumni
+                    </a>
+
+                    <div class="navbar-dropdown">
+                        <a class="navbar-item" href="">
+                            Alumni Login
+                        </a>
+                        <a class="navbar-item">
+                            Alumni Job Notice Board
+                        </a>
+                        <a class="navbar-item">
+                            Recruiters Procedure
+                        </a>
+                        <a class="navbar-item">
+                            Facilities
+                        </a>
+                    </div>
+                </div>
+                <div class="navbar-item has-dropdown is-hoverable">
+                    <a class="navbar-link">
+                        TPC Team
+                    </a>
+
+                    <div class="navbar-dropdown">
+                        <a class="navbar-item" href="/pages/AdminLogin.html">
+                            Admin Login
+                        </a>
+                        <a class="navbar-item">
+                            Administration
+                        </a>
+                        <a class="navbar-item">
+                            Students Team
+                        </a>
+                        <a class="navbar-item">
+                            Gallary
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+    </nav>
+</section>
+    <!-- navbar navbar-end -->
+
+    <!-- tiles -->
+    <div id="TPC" class="columns  pt-5 is-vcentered">
+        <div class="column is-8  is-full-width-mobile mt-5 mx-4">
+            <div class="tile is-ancestor">
+                <div class="tile is-6 is-vertical is-parent">
+                    <div class="tile is-child box">
+                        <p class="title">Training and Placement Cell ,IIT Patna</p>
+                        <p>
+                            <img src="images/logo.png" class="image is-264x264" alt=" #">
+                        </p>
+                    </div>
+                    <div class="tile is-child box">
+                        <div class="box is-info">
+                            <p>tpc_head@iitp.ac.in</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="tile is-parent">
+                    <div class="tile is-child box">
+                        <p class="contact-box has-icons-left box has-background-link-light	 has-text-black	">
+                            <span class="icon is-small is-left mx-2">
+                                <i class="fa fa-envelope"></i>
+                            </span>
+                            tpc_admin@iitp.ac.in
+                        </p>
+                        <p class="contact-box has-icons-left box has-background-link-light	has-text-black 	">
+                            <span class="icon is-small is-left mx-2">
+                                <i class="fa fa-phone"></i>
+                            </span>
+                            +91-973-765-736-1
+                        </p>
+                        <p class="contact-box has-icons-left box has-background-link-light has-text-black	">
+                            <span class="icon is-small is-left mx-2">
+                                <i class="fa fa-linkedin"></i>
+                            </span>
+                            <a href="http://linkedin.in/tpc-iitp/" target="_blank"
+                                class="has-text-black">linkedin/tpc-iitp</a>
+                        </p>
+                        <p class="contact-box has-icons-left box has-background-link-light	 has-text-black	">
+                            <span class="icon is-small is-left mx-2">
+                                <i class="fa fa-youtube"></i>
+                            </span>
+                            <a href="http://youtube.com/tpc-iitp/" target="_blank"
+                                class="has-text-black">youtube/tpc-iitp</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="column has-background-link-light mt-6 container ">
+            <!-- LOGIN FORM -->
+            <form class="  is-3 mt-1 mx-4 box landing-login" id="login-form" name="login-form">
+                <div class="field">
+                    <label class="label">Roll No/ Email</label>
+                    <div class="control has-icons-left has-icons-right">
+                        <input class="input " type="text" id="id" name="id" placeholder="Username/ Email(for Recruiter)">
+                        <span class="icon is-small is-left">
+                            <i class="fa fa-user"></i>
+                        </span>
+
+
+                        <!-- chaeck for username -->
+
+                    </div>
+                    <p class="help  is-danger" id="user-check">This ID is not present</p>
+
+                    <!-- check  for username over -->
+                </div>
+
+
+                <div class="field">
+                    <label class="label">User Type</label>
+                    <div class="control">
+                        <div class="select">
+                            <select id="user_type" name="user_type">
+                                <option value="student">Student</option>
+                                <option value="company">Recruiter</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="field">
+                    <label class="label">Password</label>
+                    <div class="control has-icons-left has-icons-right">
+                        <input id="password" class="input " name="password" type="password" placeholder="Password">
+                        <span class="icon is-small is-left">
+                            <i class="fa fa-key"></i>
+                        </span>
+
+
+                    </div>
+                    <p class="help is-danger" id="password-check">This password is invalid</p>
+
+                </div>
+                <div class="message has-text-red-dark" id="message"></div>
+                <div class="field is-grouped container is-8 ">
+                    <div class="control is-4 has-text-centered">
+                        <a href="">New Student?</a>
+                    </div>
+                    <div class="control is-4 has-text-centered">
+                        <a href="">New Recruiter?</a>
+                    </div>
+
+                </div>
+                
+
+
+                <div class="field is-full-width">
+                    <div class="control container">
+                        <button type="submit" id="login" class="button is-link">Login</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <!-- tiles -->
+
+    <div class=" ml-6 my-6">
+        <div class="columns  container">
+            <div class="column has-background-link-light is-8">
+                <div class=" boxcard">
+                    <header class="card-header">
+                        <p class="card-header-title is-size-3">
+                            What is TPC
+                        </p>
+
+                    </header>
+                    <div class="card-content">
+                        <div class="content">
+                            The Indian Institute of Technology Patna epitomizes and reveres this limitless power in
+                            every way of its life and functioning. Established as an institute of national importance
+                            through an act of parliament in 2008, IIT Patna strives to provide world class education and
+                            an intellectually stimulating environment in an endeavor to develop well rounded individuals
+                            with technical and professional competence of the highest degree. <br><br>
+                            &nbsp;&nbsp; The Training and Placement Cell of the institute handles all aspects of
+                            placements at IIT
+                            Patna for the graduating students of all departments. Right from contacting companies to
+                            managing all logistics of arranging for tests, pre-placement talks and conducting final
+                            interviews the Training and Placement Cell officials and volunteers provide their best
+                            possible assistance to the recruiters.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="column has-background-link-light  pt-6 is-size-auto">
+                <div id="slider">
+                    <ul id="slideWrap">
+                        <li><img src="images/img1.jpeg" alt=""></li>
+                        <li><img src="images/img2.jpeg" alt=""></li>
+                        <li><img src="images/img3.jpeg" alt=""></li>
+                        <li><img src="https://images.hindustantimes.com/img/2021/12/10/1600x900/8a61f172-59d1-11ec-9635-f5da2bf3d835_1639151841738.jpg"
+                                alt=""></li>
+                        <li><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGpYx6Uzb_BmigPd0HPsjF7U5acUKX9gfdRMKiaqEtSfpV7-gi1sRmBEVrHdoiVvEEevA&usqp=CAU"
+                                alt=""></li>
+                    </ul>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- Contact -->
+    <div id="ContactUs" class="container is-fluid ">
+        <div class="notification has-text-centered is-size-4 py-3 is-transparent">
+            <strong>Contact Us</strong>
+        </div>
+    </div>
+    <div class="box">
+        <div class="tile is-ancestor">
+            <div class="tile is-parent">
+                <article class="tile is-child box">
+                    <p class="title is-size-3">Reach Us</p>
+                    <ul>
+                        <li class="box has-background-link-light">
+                            <span class="subtitle has-text-black ">By Road </span>
+                            <p> <span class="has-text-dark"> &nbsp;IIT Patna can be reached through roads from
+                                    Patna Junction(35km), Aarah Junction
+                                    (12km),
+                                    Danapur (22km);</span>
+                            </p>
+                        </li>
+
+
+                        <br>
+                        <li class="box has-background-link-light">
+                            <span class="subtitle has-text-black "> By Rail
+                            </span>
+                            <p> <span class="has-text-dark"> &nbsp; Patna junction is served by direct trains from
+                                    all parts of the country such as
+                                    Delhi,
+                                    Mumbai, Kolkata, Chennai, Hyderabad, Bangalore, Lucknow, Kanpur, Guwahati, Puri, and
+                                    Vasco-de-Gamma among many others.
+                            </p>
+                        </li>
+
+                    </ul>
+                </article>
+            </div>
+            <div class="tile is-parent">
+                <article class="tile is-child box">
+                    <p class="title is-size-3">Representatives</p>
+                    <ul>
+                        <li class="box has-background-link-light">
+                            <span class="subtitle has-text-black ">Proffesor In-charge </span>
+                            <p> <span class="has-text-dark">Dr. Jose V Parambil</span><br>
+                                <span class="has-text-dark">Email:</span> pic_tpc@iitp.ac.in
+                            </p>
+                        </li>
+                        <li class="box has-background-link-light">
+                            <span class="subtitle has-text-black">Team</span><br>
+                            <p>
+                                <span class="has-text-dark">Dr. Ajay Kumar Kalyani</span><br>
+                                <span class="has-text-dark">Dr. Mayank Agrawal</span><br>
+                            </p>
+                        </li>
+                        <li class="box has-background-link-light">
+                            <span class="subtitle has-text-black">Placement Officials</span><br>
+                            <p>
+                            <p> <span class="has-text-dark">Mr. Kripa Shankar Singh (TP Officer)</span><br>
+                                <span class="has-text-dark">Email:</span> kripa@iitp.ac.in
+                            </p><br>
+                            <p> <span class="has-text-dark">Mr. Amit Kumar Singh </span><br>
+                                <span class="has-text-dark">Email:</span> aksingh@iitp.ac.in
+                            </p>
+                            </p>
+                        </li>
+                    </ul>
+                </article>
+            </div>
+            <div class="tile is-parent">
+                <article class="tile is-child box">
+                    <p class="title is-size-3">Students Team</p>
+                    <ul>
+                        <li class="box has-background-link-light">
+                            <span class="subtitle has-text-black ">Head </span>
+                            <p> <span class="has-text-dark">Master egdgydek webid</span><br>
+                                <span class="has-text-dark">Email:</span> webid@iitp.ac.in
+                            </p>
+                        </li>
+                        <li class="box has-background-link-light">
+                            <span class="subtitle has-text-black "> Cordinators </span>
+                            <p> <span class="has-text-dark">Master egdgydek webid</span><br>
+                                <span class="has-text-dark">Email:</span> webid@iitp.ac.in
+                            </p><br>
+                            <p> <span class="has-text-dark">Master egdgydek webid</span><br>
+                                <span class="has-text-dark">Email:</span> webid@iitp.ac.in
+                            </p>
+                        </li>
+                        <li class="box has-background-link-light">
+                            <span class="subtitle has-text-black ">Advisors </span>
+                            <p> <span class="has-text-dark">Master egdgydek webid</span><br>
+                                <span class="has-text-dark">Email:</span> advisor@iitp.ac.in
+                            </p>
+                        </li>
+                    </ul>
+                </article>
+            </div>
+        </div>
+    </div>
+    <!-- Contact over -->
+
+    <div id="activities" class="container is-fluid ">
+        <div class="notification has-text-centered is-size-4 py-3 is-transparent">
+            <strong>Activities</strong>
+        </div>
+    </div>
+    <div class="container   mx-6 my-4 is-underlined ">
+        <p class="subtitle has-text-black is-size-4">Student Activities</p>
+    </div>
+
+    <div class="box columns">
+        <br>
+        <div class="box column is-4">
+            <div class="image my-4">
+                <img src="images/gymkhana.jpg" alt="">
+            </div>
+            <div class="image my-4">
+                <img src="images/gymkhana2.jpeg" alt="">
+            </div>
+            <div class="image my-4">
+                <img src="images/gymkhana3.jpeg" alt="">
+            </div>
+        </div>
+        <div class="column is-8">
+
+            <div class="tile is-ancestor">
+                <div class="tile is-vertical is-8">
+                    <div class="tile">
+                        <div class="tile is-parent is-vertical">
+                            <article class="tile is-child notification is-primary">
+                                <p class="subtitle has-text-weight-bold">Technical</p>
+                                <p>
+                                    Each department at IIT Patna has its own student-run technical clubs. These clubs
+                                    organise a multitude of competitions and special lectures all round the year and
+                                    work to encourage and mentor innovative student-led projects: Sparkonics - Society
+                                    of Electrical Engineers SCME - Students’ Council of Mechanical Engineers NJACK - Not
+                                    Just Another Computer science Klub.
+                                </p>
+                            </article>
+                            <article class="tile is-child notification is-info">
+                                <p class="subtitle has-text-weight-bold">HoLFA</p>
+                                <p>
+                                    IITs have always been the cradle that groomed many a multifaceted personalities,
+                                    thanks to those who still cherish the spark despite the academic work load they
+                                    confront day after day. The founding of House of Literature and Fine Arts produced a
+                                    platform conducive for nurturing such talents in the students. </p>
+                            </article>
+                        </div>
+                        <div class="tile is-parent is-vertical">
+
+                            <article class="tile is-child notification is-warning">
+                                <p class="subtitle has-text-weight-bold">HoSCA</p>
+                                <p>
+                                    House of Socio-Cultural Affairs, prevalently known as HoSCA promotes a vibrant and
+                                    eclectic campus experience through organizing multifarious activities pertaining to
+                                    the cultural events, bringing students from all walks, interests, and ethnicity
+                                    together in ways that stimulate lifelong learning, and community interaction. The
+                                    house comprises Music Cult, Dance Cult, Dramatics Cult, Movie Cult and The
+                                    Organizing Team.
+                                </p>
+                            </article>
+                            <article class="tile is-child notification is-grey">
+                                <p class="subtitle has-text-weight-bold">Sports</p>
+                                <p>
+                                    Here at IITP, sports are just as important as academic aspirations. Students
+                                    represent the institute every year in the Inter IIT Sports meet, and other
+                                    competitions. Experienced coaches help the students reach levels of athleticism,
+                                    agility, skill and endurance.
+                                </p>
+                            </article>
+                        </div>
+                    </div>
+                    <div class="tile is-parent">
+                        <article class="tile is-child notification is-grey">
+                            <p class="subtitle has-text-weight-bold">RTDC</p>
+                            <p>
+                                Rural Technology Development Club aims to identify the problems prevailing in the rural
+                                areas and to works to develop technologies and devices to address them. The Club strives
+                                to fill the technological void existing in the rural areas. Keeping this in mind, the
+                                team regularly surveys different villages to understand the problems faced by the rural
+                                populace.
+                            </p>
+                        </article>
+
+                    </div>
+
+                </div>
+                <div class="tile is-parent">
+                    <article class="tile is-child notification is-success">
+                        <div class="content">
+                            <p class="subtitle has-text-weight-bold">E-Club</p>
+                            <div class="content">
+                                <p>"Instead of freaking about the constraints, embrace them. Let them guide you.
+                                    Constraints
+                                    drive innovation and force focus."<br>&nbsp;&nbsp;
+                                    Inspired by these words, we at IIT Patna took an initiative to create the creators
+                                    through our cell.
+                                    <br>&nbsp;&nbsp;E-Cell organises a variety of events throughout the year to promote
+                                    entrepreneurial activities in and around the campus. E-Cell conducts various
+                                    lectures
+                                    and workshops focused at budding entrepreneurs.
+                                </p><br>
+                                <p>&nbsp;&nbsp;The mission of the club is to educate themselves about the nuances
+                                    involved
+                                    in entrepreneurship and business in order to prepare them for undertaking the
+                                    journey
+                                    from the genesis of an idea to its successful business implementation. The students
+                                    aim
+                                    to foster an environment that would empower them to learn from each other and from
+                                    the
+                                    experiences of people who have undertaken such a journey in their lives.
+
+                                </p>
+                            </div>
+                        </div>
+                    </article>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="container   mx-6 my-4  ">
+        <p class="subtitle has-text-black is-size-4 is-underlined">Organisational Activities
+        </p>
+        <p>Indian Institute of Technology Patna organises various festivals throughout the academic year to inculcate a
+            sense of responsibility and teamwork along with fine-tuning academic and technical skills.
+        </p>
+    </div>
+    <div class="box ">
+        <div class="tile is-ancestor">
+            <div class="tile is-vertical is-8">
+                <div class="tile">
+                    <div class="tile is-parent is-vertical">
+
+                        <article class="tile has-background-link  is-child box">
+                            <p class="subtitle has-text-weight-bold has-text-white">Anwesha</p>
+                            <p class="has-text-white">Anwesha, the annual techno-cultural festival, organised as a
+                                four day extravaganza, includes a wide spectrum of events ranging across technical,
+                                cultural, literary and management domains. The festival is organized in the first
+                                week of February and provides a stage for the students to showcase their
+                                co-curricular and extra-curricular prowess.</p>
+                        </article>
+                        <article class="tile  has-background-danger has-text-white is-child box">
+                            <p class="subtitle has-text-weight-bold has-text-white">E-Week</p>
+                            <p>The seven day long event organised by the E-Club, includes lectures and workshops on
+                                business topics, inviting successful entrepreneurs and industry leaders for talks
+                                and speeches and intra-college activities to promote the spirit of entrepreneurship
+                                amongst the IITP community..</p>
+                        </article>
+                    </div>
+                    <div class="tile is-parent">
+                        <article class="tile has-background-warning is-child box">
+                            <p class="subtitle has-text-weight-bold">Celesta</p>
+                            <p>Celesta, the three day technical festival, comprises of events that help the students
+                                nurture their practical engineering skills. Reverberance, the intra-college fest,
+                                brings out the innate competitiveness of the students to vie for the much coveted
+                                hall-trophy. Last but not the least, Nebula, the freshers' festival, is organised to
+                                make the new additions to the IIT Patna family to feel at home and orient them
+                                towards the unique culture here.</p><br>
+                            <p>&nbsp;Celesta is the annual Techno-Management Fest of IIT Patna. To promote technical
+                                and managerial enthusiasm amongst young and bright minds of our nation and to
+                                provide a platform to transform their innovative ideas into a meaningful reality.
+
+                            </p>
+                        </article>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="tile is-parent">
+                <article class="tile  is-child ">
+                    <div class="image my-6">
+                        <img src="images/anwesha.jpeg" alt="">
+                    </div>
+                </article>
+            </div>
+        </div>
+    </div>
+    <div class="box columns mx-6">
+        <div class="column is-one-fifth mx-1">
+            <div class="image my-0 is-128x128">
+                <img src="images/logo.png" alt="">
+            </div>
+            <div class="content my-0 px-3 has-text-black">
+                Training and Placement Cell,<br>
+                2nd Floor , Administration Building,<br>
+                IIT Patna,
+            </div>
+            <div class="my-2">
+                <a href="link" class="icon is-size-3 has-text-black mx-3"><i class="fa fa-youtube"></i></a>
+                <a href="link" class="icon is-size-3 has-text-black mx-3"><i class="fa fa-linkedin"></i></a>
+                <a href="link" class="icon is-size-3 has-text-black mx-3"><i class="fa fa-facebook"></i></a>
+            </div>
+
+        </div>
+        <div class="column is-one-fifth">
+            <ul>
+                <li class="subtitle has-text-black has-text-weight-bold">Useful Links</li>
+                <li> <a onclick="smoothScroll(document.getElementById('TPC'))">Home</a></li>
+                <li> <a onclick="smoothScroll(document.getElementById('ContactUs'))">Contact Us</a></li>
+                <li> <a onclick="smoothScroll(document.getElementById('activities'))">Student Activities</a></li>
+            </ul>
+        </div>
+        <div class="column is-one-fifth">
+            <ul>
+                <li class="subtitle has-text-black has-text-weight-bold">For Recruiter</li>
+                <li><a href="">Placement Procedure</a></li>
+                <li><a href="">Demographics</a></li>
+                <li><a href="">Facilities</a></li>
+            </ul>
+        </div>
+        <div class="column is-one-fifth">
+            <ul>
+                <li class="subtitle has-text-black has-text-weight-bold">Academics</li>
+                <li><a href="">Department</a></li>
+                <li><a href="">Courese Ciriculllum</a></li>
+                <li><a href="">Syllabus</a></li>
+            </ul>
+        </div>
+        <div class="column is-one-fifth"></div>
+    </div>
+
+</body>
+<script src="scripts/slider.js"></script>
+<script src="scripts/scroller.js"></script>
+<script src="scripts/login.js"></script>
+
+</html>

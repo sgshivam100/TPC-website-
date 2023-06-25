@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration</title>
+    <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../styles/styles.css">
+    <link rel="icon" href="../images/logo.png" />
+
+</head>
+
+<body>
+    <section class="recruiter-form pb-6">
+        <!-- Navbar start -->
+        <nav class="navbar main-nav is-dark " role="navigation" aria-label="main navigation">
+
+
+            <div id="navbarBasicExample" class="navbar-menu mx-6">
+                <div class="navbar-brand">
+                    <a class="navbar-item" href="https://bulma.io">
+                        <img src="../images/logo.png" alt="#" class="mx-3" width="50" height="28">
+                        TPC IIT Patna
+                    </a>
+
+                    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false"
+                        data-target="navbarBasicExample">
+                        <span aria-hidden="true"></span>
+                        <span aria-hidden="true"></span>
+                        <span aria-hidden="true"></span>
+                    </a>
+                </div>
+                <div class="navbar-end">
+                    <div class="navbar-item has-dropdown is-hoverable">
+                        <a class="navbar-link">
+                            About US
+                        </a>
+
+                        <div class="navbar-dropdown">
+                            <a href="/Home.html" class="navbar-item">
+                                TPC
+                            </a>
+                            <a href="/Home.html" class="navbar-item">
+                                Contact US
+                            </a>
+                            <a href="youtube.com" target="_blank" class="navbar-item">
+                                Youtube Channel
+                            </a>
+                            <a href="linkedinn.in" target="_blank" class="navbar-item">
+                                Linkedin
+                            </a>
+
+                            <a class="navbar-item" href="/Home.html">
+                                Activities
+                            </a>
+                        </div>
+                    </div>
+                    <div class="navbar-item has-dropdown is-hoverable">
+                        <a class="navbar-link">
+                            IIT Patna
+                        </a>
+
+                        <div class="navbar-dropdown">
+                            <a class="navbar-item">
+                                Student and Academics
+                            </a>
+                            <a class="navbar-item">
+                                Graduating Students
+                            </a>
+                            <a class="navbar-item">
+                                Researches
+                            </a>
+                            <a class="navbar-item">
+                                Report an issue
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="navbar-item has-dropdown is-hoverable">
+                        <a class="navbar-link">
+                            For Students
+                        </a>
+
+                        <div class="navbar-dropdown">
+                            <a class="navbar-item">
+                                Student Login
+                            </a>
+                            <a href="/pages/newStud.html" class="navbar-item">
+                                New Registration
+                            </a>
+                            <a class="navbar-item">
+                                Alumni Search
+                            </a>
+                            <a class="navbar-item">
+                                F.A.Q
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="navbar-item has-dropdown is-hoverable">
+                        <a class="navbar-link">
+                            For Recruiters
+                        </a>
+
+                        <div class="navbar-dropdown">
+                            <a class="navbar-item">
+                                Recruiter Login
+                            </a>
+                            <a href="newRecruiter.html" class="navbar-item">
+                                New Recruiter Here
+                            </a>
+                            <a class="navbar-item">
+                                Recruiters Procedure
+                            </a>
+                            <a class="navbar-item">
+                                Facilities
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="navbar-item has-dropdown is-hoverable">
+                        <a class="navbar-link">
+                            For Alumni
+                        </a>
+
+                        <div class="navbar-dropdown">
+                            <a class="navbar-item">
+                                Alumni Login
+                            </a>
+                            <a class="navbar-item">
+                                Alumni Job Notice Board
+                            </a>
+                            <a class="navbar-item">
+                                Recruiters Procedure
+                            </a>
+                            <a class="navbar-item">
+                                Facilities
+                            </a>
+                        </div>
+                    </div>
+                    <div class="navbar-item has-dropdown is-hoverable">
+                        <a class="navbar-link">
+                            TPC Team
+                        </a>
+
+                        <div class="navbar-dropdown">
+                            <a class="navbar-item">
+                                Admin Login
+                            </a>
+                            <a class="navbar-item">
+                                Administration
+                            </a>
+                            <a class="navbar-item">
+                                Students Team
+                            </a>
+                             <a class="navbar-item">
+                                Gallary
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+        </nav>
+        <!-- navbar navbar-end -->
+        <section class="container is-centered mt-6 pb-4 outer-section "">
+
+        <div class=" container subtitle has-text-centered is-centered mb-2 pb-5 ">
+            <strong class='has-text-white is-size-3 is-underlined'> New  </strong>
+            <strong class='has-text-white is-size-3 is-underlined'> Recruting   </strong>
+            <strong class='has-text-white is-size-3 is-underlined'>Company </strong>
+        </div>
+        <div class=" columns is-centered pb-6">
+            <form id="company-registration" class="column  is-one-third">
+                <div class="field mt-4 is-centered">
+                    <div class="control has-icons-left has-icons-right">
+                        <input class="input is-success   " name="name" id="name" type="text"
+                            placeholder="Company Name" />
+                        <span class="icon is-small is-left">
+                            <i class="fa fa-user"></i>
+                        </span>
+                    </div>
+                </div>
+                <div class="field mt-4 is-centered">
+                    <div class="control has-icons-left has-icons-right">
+                        <input class="input is-success   " name="location" id="location" type="text" placeholder="Company Location" />
+                        <span class="icon is-small is-left">
+                            <i class="fa fa-map-marker"></i>
+                        </span>
+                    </div>
+                </div>
+
+
+                <div class="field mt-4">
+                    <div class="control has-icons-left has-icons-right">
+                        <input class="input is-success   " type="email" id="email" name="email"
+                            placeholder="Contact Email" />
+                        <span class="icon is-small is-left">
+                            <i class="fa fa-envelope"></i>
+                        </span>
+                    </div>
+                </div>
+
+                <div class="file mt-4 has-name">
+                    <label class="file-label">
+                      <input class="file-input" type="file" name="logo">
+                      <span class="file-cta">
+                        <span class="file-icon">
+                          <i class="fa fa-upload"></i>
+                        </span>
+                        <span class="file-label">
+                            Choose File
+                        </span>
+                      </span>
+                      <span class="file-name" style="width:30vw; background-color: white;">                              
+                        Logo
+
+                    </span>
+                    </label>
+                  </div>
+                  <div class="file mt-4 has-name">
+                    <label class="file-label">
+                      <input class="file-input" type="file" name="brochure">
+                      <span class="file-cta">
+                        <span class="file-icon">
+                          <i class="fa fa-upload"></i>
+                        </span>
+                        <span class="file-label">
+                            Choose File
+                        </span>
+                      </span>
+                      <span class="file-name" style="width:30vw; background-color: white;">                              
+                        Brochure
+
+                    </span>
+                    </label>
+                  </div>
+                <div class="field mt-4">
+                    <div class="control has-icons-left has-icons-right">
+                        <input class="input is-success   " type="password" placeholder=" Password" name="password" />
+                        <span class="icon is-small is-left">
+                            <i class="fa fa-key"></i>
+                        </span>
+                    </div>
+                </div>
+                <div class="field mt-4">
+                    <div class="control has-icons-left has-icons-right">
+                        <input class="input is-success   " type="password" placeholder=" Confirm Password "
+                            name="confPassword" />
+                        <span class="icon is-small is-left">
+                            <i class="fa fa-key"></i>
+                        </span>
+                    </div>
+                </div>
+                <div class="content has-text-danger" id="message"></div>
+                <div class="field mt-4">
+                    <div class="control  is-size-6">
+                        <label class="checkbox has-text-black ">
+                            <input type="checkbox" name="check" />
+                            &nbsp;I agree that details provided above are correct
+                        </label>
+
+                    </div>
+                </div>
+
+                <div class="message has-text-red-dark has-text-weight-bold" id="message"></div>
+
+                <div class="field mt-4 pb-0 mt-0 is-centered">
+                    <div class="control is-flex is-justify-content-center">
+                        <button type="submit" id="register-company" class="button is-link has-text-white ">Register</button>
+                    </div>
+                </div>
+
+
+
+            </form>
+            </div>
+
+        </section>
+    </section>
+
+</body>
+<script src="/scripts/newCompany.js"></script>
+</html>
